@@ -1,0 +1,35 @@
+[
+    {
+      "product-title": "BOWL CERAMICA ONDAS",
+      "price": "$3000",
+      "product-img": "../img/bowl1.jpg"
+    },
+    {
+      "product-title": "BOWL CERAMICA DAISY",
+      "price": "$3000",
+      "product-img": "../img/bolw2.jpg"
+    },
+    {
+      "product-title": "BOWL CERAMICA PUNTOS",
+      "price": "$3000",
+      "product-img": "../img/bowl3.jpg"
+    },
+  
+    {
+      "product-title": "TAZA CERAMICA CORAL",
+      "price": "$3500",
+      "product-img": "../img/taza1.jpg"
+    },
+  
+    {
+      "product-title": "TAZA CERAMICA BEIGE",
+      "price": "3500",
+      "product-img": "../img/taza2.jpg"
+    },
+  
+    {
+      "product-title": "TAZA CERAMICA TURQUESA",
+      "price": "$3500",
+      "product-img": "../img/taza3.jpg"
+    }
+]
