@@ -2,7 +2,7 @@ const cartIcon = document.querySelector("#cart-icon");
 const cart = document.querySelector(".cart");
 const closeCart = document.querySelector("#close-cart");
 const buyButton = document.querySelector(".button-buy");
-const search = document.querySelector("#buscador");
+// const search = document.querySelector("#buscador");
 const hideContainer = document.querySelector(".container-buscador");
 
 // Abrir Carrito
@@ -13,15 +13,6 @@ cartIcon.onclick = () => {
 //Cerrar el carrito
 closeCart.onclick = () => {
     cart.classList.remove("active");
-};
-
-// Buscador
-search.onclick = () => {
-    hideContainer.classList.remove("hiden");
-};
-  
-  search.onmouseleave = () => {
-    hideContainer.classList.add("hiden");
 };
 
 //Funcionamiento del carrito JS
@@ -208,20 +199,5 @@ function updateTotal() {
     };
   }
 }
-
-
-
-const buscador = document.querySelector("#buscador");
-
-document.addEventListener("keyup", () => {
-  const buscador = document.querySelector("#buscador");
-  if (buscador) {
-    document.querySelectorAll(".articulos").forEach((zapatilla) => {
-      zapatilla.textContent.toLowerCase().includes(buscador.value)
-        ? zapatilla.classList.add("filter")
-        : zapatilla.classList.remove("filter");
-    });
-  }
-});
 
 {/* <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> */}

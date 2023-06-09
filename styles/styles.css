@@ -65,7 +65,8 @@ section {
     font-size: 1.5 rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
+    margin-top: 1.5rem;
 }
 
 .store {
@@ -332,82 +333,7 @@ footer {
     color: var(--bg-color);
 }
 
-.search-prodcuts {
-    border: 1px solid var(--text-color);
-    margin: 25px auto;
-    width: 300px;
-    border-radius: 0.5rem;
-    background:#fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    outline: none;
-    border: 1px solid #fff;
-}
-  
-.buscador {
-    border: none;
-    padding: 7px;
-    outline: none;
-    background: #fff;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-}
- 
-.buscador i {
-    font-size: 1.5rem;
-}
 
-
-.filter {
-    display: none;
-}
-  
-.hiden {
-    display: none;
-    transition: 3s;
-}
-  
-.buscador-abierto {
-    height: auto;
-    width: 300px;
-    background: var(--main-color);
-    color: var(--text-color);
-    text-align: center;
-    box-shadow: 1px 1px 1px 1px hsl(0 4% 15% / 10%) black;
-    border-radius: 0.5rem;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    margin-bottom: 15px;
-    transition: 1s;
-}
-  
-.articulos {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 250px;
-    gap: 1rem;
-    margin: 5px 0;
-    cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 0.5rem;
-}
-  
-.articulos:hover {
-    background-color: var(--text-color);
-    color: var(--bg-color);
-}
-  
-.buscador-abierto ul li img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-}
 
 
 
